@@ -1,4 +1,4 @@
-# Video-Enhancement-using-Single-Image-Super-Resolution
+# SRGAN Based Video-Enhancement-using-Single-Image-Super-Resolution
 
 In this project,we have used a pretrained Super-Resolution Generative Adversarial Networks(SRGAN) Model. We provide a low resolution video as input and get Super Resolved Video as output. The Steps for running the Model in Google Colaboratory are as follows-
 
