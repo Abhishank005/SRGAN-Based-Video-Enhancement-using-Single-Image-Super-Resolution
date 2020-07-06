@@ -12,16 +12,15 @@ Create a directory named  Super Resolution by using the command given below :-
 ```cd /content/super-resolution```
 
 ## STEP-3
-We Require Pretrained weight for running the model SRGAN, download the weight for SRGAN from below-
-
+The pretrained weights required  for running the model can be  downloaded from the link given below:-
 [weights-srgan.tar.gz](https://drive.google.com/file/d/1ZKpQvtxLKKq2fM1gKtl085pgHSgSQSBw/view?usp=sharing)
 
-After downloading the weight, upload it in your notebook and then run the command below for extracting the weight in the root folder-
+After downloading the pretrained weights, upload it in your notebook and then run the command below to extract the weights into the root folder-
 ```!tar xvfz /content/weights-srgan.tar.gz```
 
 
 ## STEP-4
-Just run the following code for the SRGAN Model implementation in your video-
+To perform video enhancement ,the input video should be converted into frames and the model can be used to obtain super resolved frames.This can be done using  python codes given below.
 
 ```python
 # Importing all necessary libraries 
@@ -99,12 +98,12 @@ cam.release()
 cv2.destroyAllWindows()
 ```
 
-Here we are attatching a picrure of model implementation on the frame-
+Here we have attatched a  sample image that shows model implementation on an input frame-
 
 ![Results](Results/Results.png)
 
 # STEP-5
-Run the Code below for saving the super resolved frames in a folder and storing their output path in a list-
+Run the Python codes given below to save the super resolved frames obtained in a folder and store their output path in a list-
 
 ```python
 #Importing necessary libraries
@@ -128,7 +127,7 @@ for j in range(len(arr_output)):
 ```
 
 # STEP-6
-Run the code below for conversion of super resolved frames into a Video-
+Run the Python codes given  below to  convert  super resolved frames obtained into a Video-
 
 ```python
 import cv2
@@ -153,7 +152,7 @@ out.release()
 ```
 
 # Final Results - 
-Go through the link given below for the results of the project, when it is implemented in a video-
+Below link provides the  results obtained for Video enhancement using single image super resolution using SRGAN Model. 
 
 [Video Results](https://drive.google.com/drive/folders/1NiyJCLsB_-pAmFJNF97QhZiho7zPLMCw?usp=sharing)
 
