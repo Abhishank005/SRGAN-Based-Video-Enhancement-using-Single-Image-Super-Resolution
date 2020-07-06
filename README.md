@@ -2,12 +2,12 @@
 
 In this project, we have used a pretrained Super-Resolution Generative Adversarial Networks(SRGAN) Model to perform Video enhancement using single image super resolution.The model thakes a low resolution video as input and outputs a high resolution video.
 ## STEP-1
-Clone the following repository in your Notebook, which consists of Pretrained SRGAN Model-
+Clone the following repository  which consists of Pretrained SRGAN Model in your Notebook:-
 
 ``` !git clone https://github.com/krasserm/super-resolution ```
 
 ## STEP-2
-Create a directory for Super Resolution by using the command-
+Create a directory named  Super Resolution by using the command given below :-
 
 ```cd /content/super-resolution```
 
@@ -25,7 +25,7 @@ Just run the following code for the SRGAN Model implementation in your video-
 
 ```python
 # Importing all necessary libraries 
-import timeit
+import timei
 import cv2 
 import os
 import numpy as np
