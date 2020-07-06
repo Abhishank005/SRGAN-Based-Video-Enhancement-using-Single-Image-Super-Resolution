@@ -100,6 +100,10 @@ cam.release()
 cv2.destroyAllWindows()
 ```
 
+Here we are attatching a picrure of model implementation on the frame-
+
+![Results](Results/Results.png)
+
 # STEP-5
 Run the Code below for saving the super resolved frames in a folder and storing their output path in a list-
 
