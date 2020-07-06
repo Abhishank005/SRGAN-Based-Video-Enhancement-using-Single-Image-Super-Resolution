@@ -1,18 +1,18 @@
 # SRGAN Based Video-Enhancement-using-Single-Image-Super-Resolution
 
-In this project, we have used a pretrained Super-Resolution Generative Adversarial Networks(SRGAN) Model to perform Video enhancement using single image super resolution.The model thakes a low resolution video as input and outputs a high resolution video.
+In this project, we have used a pretrained Super-Resolution Generative Adversarial Networks(SRGAN) model to perform Video enhancement using Single Image Super Resolution.The model thakes a low resolution video as input and provides a high resolution video as output.
 ## STEP-1
-Clone the following repository  which consists of Pretrained SRGAN Model in your Notebook:-
+Clone the following repository which consists of Pretrained SRGAN Model in your Notebook:-
 
 ``` !git clone https://github.com/krasserm/super-resolution ```
 
 ## STEP-2
-Create a directory named  Super Resolution by using the command given below :-
+Create a directory named Super Resolution by using the command given below :-
 
 ```cd /content/super-resolution```
 
 ## STEP-3
-The pretrained weights required  for running the model can be  downloaded from the link given below:-
+The pretrained weights required for running the model can be  downloaded from the link given below:-
 [weights-srgan.tar.gz](https://drive.google.com/file/d/1ZKpQvtxLKKq2fM1gKtl085pgHSgSQSBw/view?usp=sharing)
 
 After downloading the pretrained weights, upload it in your notebook and then run the command below to extract the weights into the root folder-
@@ -20,7 +20,7 @@ After downloading the pretrained weights, upload it in your notebook and then ru
 
 
 ## STEP-4
-To perform video enhancement ,the input video should be converted into frames and the model can be used to obtain super resolved frames.This can be done using  python codes given below.
+To perform video enhancement,the input video should be converted into frames and the model can be used to obtain super resolved frames.This can be done using python codes given below.
 
 ```python
 # Importing all necessary libraries 
@@ -98,12 +98,12 @@ cam.release()
 cv2.destroyAllWindows()
 ```
 
-Here we have attatched a  sample image that shows model implementation on an input frame-
+Here we have attatched a sample image that shows model implementation on an input frame-
 
 ![Results](Results/Results.png)
 
 # STEP-5
-Run the Python codes given below to save the super resolved frames obtained in a folder and store their output path in a list-
+Run the Python codes given below to save the super resolved frames obtained in a folder and to store their output path in a list-
 
 ```python
 #Importing necessary libraries
@@ -152,7 +152,7 @@ out.release()
 ```
 
 # Final Results - 
-Below link provides the  results obtained for Video enhancement using single image super resolution using SRGAN Model. 
+Below link provides the results obtained for Video enhancement using single image super resolution using SRGAN Model. 
 
 [Video Results](https://drive.google.com/drive/folders/1NiyJCLsB_-pAmFJNF97QhZiho7zPLMCw?usp=sharing)
 
