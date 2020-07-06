@@ -1,6 +1,6 @@
 # SRGAN Based Video-Enhancement-using-Single-Image-Super-Resolution
 
-In this project, we have used a pretrained Super-Resolution Generative Adversarial Networks(SRGAN) model to perform Video enhancement using Single Image Super Resolution.The model thakes a low resolution video as input and provides a high resolution video as output. It is done in 6 simple steps which includes conversion of input video into low resolution frames and then converting back the processed high resolution frames into the output video.
+In this project, we have used a pretrained Super-Resolution Generative Adversarial Networks(SRGAN) model to perform Video enhancement using Single Image Super Resolution. The model takes a low resolution video as input and provides a high resolution video as output. The model has been validated in different genres videos at different quality levels. It is done in 6 simple steps which includes conversion of input video into low resolution frames and then converting back the processed high resolution frames into the output video.
 ## STEP-1
 Clone the following repository which consists of Pretrained SRGAN Model in your Notebook:-
 
