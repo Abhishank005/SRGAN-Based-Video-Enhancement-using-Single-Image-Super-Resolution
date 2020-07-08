@@ -13,6 +13,7 @@ Create a directory named Super Resolution by using the command given below :-
 
 ## STEP-3
 The pretrained weights required for running the model can be  downloaded from the link given below:-
+
 [weights-srgan.tar.gz](https://drive.google.com/file/d/1ZKpQvtxLKKq2fM1gKtl085pgHSgSQSBw/view?usp=sharing)
 
 After downloading the pretrained weights, upload it in your notebook and then run the command below to extract the weights into the root folder-
